@@ -7,7 +7,7 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
+    "primary": "#22c55e",
     "light": "#07C983",
     "dark": "#0D9373",
     "anchors": {
@@ -33,19 +33,19 @@
   ],
   "anchors": [
     {
-      "name": "Leapfrog",
-      "icon": "browser",
+      "name": "Platform",
+      "icon": "right-to-bracket",
       "url": "https://www.leapfrogapp.com/"
     },
     {
       "name": "Community",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "url": "https://leapfrogapp.slack.com/ssb/redirect#/shared-invite/email"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://leapfrogapp.com/blog"
     }
   ],
   "navigation": [
