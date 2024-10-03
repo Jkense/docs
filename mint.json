@@ -60,6 +60,7 @@
     {
       "group": "Essentials",
       "pages": [
+        "essentials/workspaces",
         "essentials/transcribing-interviews"
       ]
     }
