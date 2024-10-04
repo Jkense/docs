@@ -1,7 +1,7 @@
 ---
-title: 'Transcribing clips'
-description: 'Convert your interview recordings into a readable format'
-icon: 'waveform-lines'
+title: "Transcribing Interviews"
+description: "Convert your interview recordings into a readable format"
+icon: "waveform-lines"
 ---
 
 This guide will walk you through the process of transcribing audio and video clips in Leapfrog and how to effectively use transcripts in your research projects.
@@ -15,6 +15,8 @@ This guide will walk you through the process of transcribing audio and video cli
 
 To begin, create a new document in your Leapfrog workspace:
 
+![Create a new document](/images/transcribing-interviews/create-document.svg)
+
 1. Open your workspace in the Leapfrog web app.
 2. Click the **New Document** button located in the top right corner of your screen.
 3. Name your document and confirm. You will be automatically redirected to the document's page.
@@ -24,6 +26,8 @@ Now you are ready to start adding media files for transcription.
 ## Step 2: Upload Audio or Video Files
 
 To add media files, use the toolbar in the document editor:
+
+![Add a new transcript](/images/transcribing-interviews/insert-transcript.svg)
 
 1. In the document editor, click **Upload audio or video to get started**.
 2. Choose the audio or video file you want to upload from your computer.
@@ -39,7 +43,7 @@ To add media files, use the toolbar in the document editor:
 
 ### Supported Languages
 
-Leapfrog supports transcription in the following languages: 
+Leapfrog supports transcription in the following languages:
 
 en, zh, de, es, ru, ko, fr, ja, pt, tr, pl, ca, nl, ar, sv, it, id, hi, fi, vi, he, uk, el, ms, cs, ro, da, hu, ta, no, th, ur, hr, bg, lt, la, mi, ml, cy, sk, te, fa, lv, bn, sr, az, sl, kn, et, mk, br, eu, is, hy, ne, mn, bs, kk, sq, sw, gl, mr, pa, si, km, sn, yo, so, af, oc, ka, be, tg, sd, gu, am, yi, lo, uz, fo, ht, ps, tk, nn, mt, sa, lb, my, bo, tl, mg, as, tt, haw, ln, ha, ba, jw, su.
 
@@ -47,11 +51,11 @@ en, zh, de, es, ru, ko, fr, ja, pt, tr, pl, ca, nl, ar, sv, it, id, hi, fi, vi, 
 
 You can also select different model sizes based on your needs. Leapfrog offers multiple models for transcription, ranging from smaller and faster to larger and more accurate:
 
-- **tiny**
-- **base**
-- **small**
-- **medium**
-- **large**
+- **tiny**: Contains 39M parameters, the smallest and fastest model.
+- **base**: Contains 74M parameters.
+- **small**: Contains 244M parameters.
+- **medium**: Contains 769M parameters. This is the default model.
+- **large**: Contains 1550M parameters. The most accurate model available, using OpenAI’s Whisper large-v2 as its default.
 
 ## Supported File Types
 
@@ -64,11 +68,11 @@ Leapfrog supports the following file formats for audio and video transcription:
 
 Here’s an example of how redaction might work in a transcript:
 
-| **Original**                                                      | **Redacted**                                              |
-| ------------------------------------------------------------------ | --------------------------------------------------------- |
-| "Hi, my name is Jane Doe and I live at 123 Main Street."           | "Hi, my name is [NAME_1] and I live at [LOCATION_1]."     |
-| "My bank account number is 1234567890."                            | "My bank account number is [ACCOUNT_NUMBER_1]."           |
-| "You can contact me at john.doe@example.com."                      | "You can contact me at [EMAIL_ADDRESS_1]."                |
+| **Original**                                             | **Redacted**                                          |
+| -------------------------------------------------------- | ----------------------------------------------------- |
+| "Hi, my name is Jane Doe and I live at 123 Main Street." | "Hi, my name is [NAME_1] and I live at [LOCATION_1]." |
+| "My bank account number is 1234567890."                  | "My bank account number is [ACCOUNT_NUMBER_1]."       |
+| "You can contact me at john.doe@example.com."            | "You can contact me at [EMAIL_ADDRESS_1]."            |
 
 Leapfrog automatically identifies and redacts sensitive personal information to protect privacy.
 
@@ -79,6 +83,7 @@ Leapfrog automatically identifies and redacts sensitive personal information to 
 ### What Are Filler Words?
 
 Filler words are non-essential phrases that people often use in conversation to pause or think aloud. Common filler words include:
+
 - uh
 - um
 - mhmm
@@ -88,11 +93,12 @@ You can customize your transcription process to either keep these words for a mo
 
 ### Example with and without Filler Words
 
-| **Original**                | **With Filler Words**                                                           | **Without Filler Words**                                                |
-| --------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| **Original**                                                                   | **With Filler Words**                                                          | **Without Filler Words**                                          |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ----------------------------------------------------------------- |
 | "Uh, so you're looking for, uh, something specific, um, like a precise model." | "Uh, so you're looking for, uh, something specific, um, like a precise model." | "So you're looking for something specific, like a precise model." |
 
 To adjust filler word settings:
+
 1. Enable **Filler Words** to keep them in the transcript.
 2. Disable **Filler Words** to remove them and improve readability.
 
@@ -103,10 +109,12 @@ Leapfrog allows you to transcribe audio or video in multiple languages. Simply c
 ## What’s Next?
 
 Once your transcription is complete, you can start analyzing the data by:
+
 - **Tagging and coding** the transcript to identify key themes and patterns.
 - **Collaborating with your team** to refine your insights.
 
 To learn more about these steps, visit our [Tagging and Coding](https://leapfrog.com/docs/coding) documentation page.
 
 ---
+
 Now that you’ve learned how to transcribe audio and video, move on to our guide for analyzing transcripts and extracting insights.

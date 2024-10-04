@@ -2,10 +2,10 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Starter Kit",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/logo.svg",
+    "light": "/logo/logo.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/logo-noname.svg",
   "colors": {
     "primary": "#22c55e",
     "light": "#07C983",
@@ -45,16 +45,15 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart"
-      ]
+      "pages": ["introduction", "quickstart"]
     },
     {
-      "group": "Essentials",
+      "group": "Basics",
       "pages": [
-        "essentials/workspaces",
-        "essentials/transcribing-interviews"
+        "basics/workspaces",
+        "basics/document-editor",
+        "basics/transcribing-interviews",
+        "basics/codes"
       ]
     }
   ],
