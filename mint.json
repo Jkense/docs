@@ -45,14 +45,17 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart"]
+      "pages": ["introduction", "why-leapfrog", "quickstart"]
     },
     {
       "group": "Basics",
       "pages": [
         "basics/workspaces",
         "basics/document-editor",
-        "basics/transcribing-interviews"
+        "basics/transcribing-interviews",
+        "basics/quotes-and-tags",
+        "basics/canvas",
+        "basics/synthesis"
       ]
     }
   ],
