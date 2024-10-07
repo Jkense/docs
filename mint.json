@@ -3,7 +3,8 @@
   "name": "Starter Kit",
   "logo": {
     "dark": "/logo/logo.svg",
-    "light": "/logo/logo.svg"
+    "light": "/logo/logo.svg",
+    "href": "https://www.leapfrogapp.com/"
   },
   "favicon": "/logo/logo-noname.svg",
   "colors": {
