@@ -17,8 +17,8 @@
     }
   },
   "topbarCtaButton": {
-    "name": "Sign in",
-    "url": "https://www.leapfrogapp.com/signin"
+    "name": "Leapfrog",
+    "url": "https://www.leapfrogapp.com/"
   },
   "tabs": [
     {
