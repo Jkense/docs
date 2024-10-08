@@ -65,5 +65,10 @@
     "slack": "https://leapfrogapp.slack.com/ssb/redirect#/shared-invite/email",
     "github": "https://github.com/Jkense/docs",
     "linkedin": "https://www.linkedin.com/company/leapfrogapp"
+  },
+  "analytics": {
+    "ga4": {
+      "measurementId": "G-2NCL92R0HG"
+    }
   }
 }
